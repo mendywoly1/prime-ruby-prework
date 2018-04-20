@@ -8,5 +8,5 @@ def prime?(int)
     return false
   end
 end
-true
+return  true
 end
