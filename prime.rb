@@ -1,12 +1,6 @@
 # Add  code here!
-
-
-
-  return false if num < 2
-
-  (2...num).each do |check_num|
-    return false if num % check_num == 0
-  end
-  
-  true
+def prime?(int) 
+  arr = range(1..100)
+  arr.each do |num|
+  breack if int / 
 end
