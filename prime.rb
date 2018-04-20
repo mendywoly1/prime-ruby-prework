@@ -1,6 +1,8 @@
 # Add  code here!
 def prime?(int) 
-  arr = range(1..100)
-  arr.each do |num|
-  if int % num 
+  (1..num).each do |num|
+  if int % num == 0
+    false
+  end
+  true
 end
